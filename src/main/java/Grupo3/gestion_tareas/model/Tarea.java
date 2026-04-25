@@ -19,7 +19,7 @@ public class Tarea {
     @Column(nullable = false)
     private String estado;
 
-    private String prioridad;
+    private String prioridadMedia;
 
     private LocalDate fechaInicio;
     private LocalDate fechaLimite;
